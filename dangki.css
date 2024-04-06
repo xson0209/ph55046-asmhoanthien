@@ -142,6 +142,9 @@ a:hover{
     color: black;
     text-decoration: underline;
 }
+.content .content-phai .box .box1 .login-container button:hover{
+    color: black ;
+}
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
     body {
         margin: 0 auto;
