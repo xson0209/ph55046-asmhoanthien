@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Gđ2</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="lienhe.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const icon = document.querySelector('.icon');
+            const contentTrai = document.querySelector('.content-trai');
+    
+            icon.addEventListener('click', function() {
+                if (contentTrai.classList.contains('show')) {
+                    contentTrai.classList.remove('show');
+                } else {
+                    contentTrai.classList.add('show');
+                }
+            });
+    
+            const closeBtn = document.querySelector('.close img');
+    
+            closeBtn.addEventListener('click', function() {
+                contentTrai.classList.remove('show');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="content">
+        <label for="check-input" class="icon">
+            <img src="images/Thanh mở narbar.png" alt="">
+        </label>
+        <div class="content-trai">
+            <div class="mobile">
+                <div class="nav__mobile">
+                    <div for="check-input" class="close">
+                        <img src="images/close.png" alt="">
+                    </div>
+                    <div class="logo">
+                        <img src="images/Logo.png" alt="logo">
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/Home.png" alt="Home">
+                        <a href="index.html">Trang Chủ</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/Tintuc.png" alt="Home">
+                        <a href="tintuc.html">Tin Tức</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/Sản Phẩm.png" alt="Home">
+                        <a href="sanpham.html">Sản Phẩm</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/lienhe.png" alt="Home">
+                        <a href="lienhe.html">Liên Hệ</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/dang nhap.png" alt="Home">
+                        <a href="dangnhap.html">Đăng Nhập</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/dang ki.png" alt="Home">
+                        <a href="dangki.html">Đăng Kí</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pc">
+                <div class="logo">
+                    <img src="images/Logo.png" alt="logo">
+                </div>
+                <div class="sub-logo">
+                    <img src="images/Home.png" alt="Home">
+                    <a href="index.html">Trang Chủ</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/Tintuc.png" alt="Home">
+                    <a href="tintuc.html">Tin Tức</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/Sản Phẩm.png" alt="Home">
+                    <a href="sanpham.html">Sản Phẩm</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/lienhe.png" alt="Home">
+                    <a href="lienhe.html">Liên Hệ</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/dang nhap.png" alt="Home">
+                    <a href="dangnhap.html">Đăng Nhập</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/dang ki.png" alt="Home">
+                    <a href="dangki.html">Đăng Kí</a>
+                </div>
+            </div>
+        </div>
+        <div class="content-phai">
+            <!-- Nội dung phần phải -->
+            <div class="lienhe-content-phai">
+                <div class="title">
+                    <h2>
+                       Liên Hệ
+                    </h2>
+                    <div class="thanhngang"> </div>
+                </div>
+                <div class="sub-title">
+                    <h2>
+                        Liên Hệ Trực Tiếp
+                    </h2>
+                    <h2 class="h2">
+                        MALDINI Việt Nam – Đơn vị sản xuất và phân phối các sản phẩm về đồ da, quần áo với chất lượng tốt nhất và giá cả hợp lí nhất.
+                    </h2>
+                </div>
+                <!-- Cụm -->
+                <div class="box">
+                    <div class="box1">
+                        <div class="img">
+                            <img src="images/lienhe1.1.png" alt="">
+                        </div>
+                        <h3>
+                            Địa chỉ showroom
+                        </h3>
+                        <p>
+                            P.A8 - CT2 tòa nhà The Pride - đường Tố Hữu, phường La Khê, quận Hà Đông, thành phố Hà Nội
+                        </p>
+                    </div>
+                    <div class="box1">
+                        <div class="img">
+                            <img src="images/lienhe1.2.png" alt="">
+                        </div>
+                        <h3>
+                            Hotline
+                        </h3>
+                        <p>
+                            0962663459 (Mr Khoa - CEO) <br>0962663459 (Mr Hải - GĐ Bán hàng)
+                        </p>
+                    </div>
+                    <div class="box1">
+                        <div class="img">
+                            <img src="images/lienhe1.3.png" alt="">
+                        </div>
+                        <h3>
+                            Maldini VietNam
+                        </h3>
+                        <p>
+                            Fanpage chính thức của công ty 
+                        </p>
+                    </div>
+                </div>
+                <div class="baoquanda">
+                    <div class="trai">
+                        <h1>
+                            Bảo quản đồ da – 3 cách đơn giản ai cũng làm được
+                        </h1>
+                        <p>
+                            Điều đầu tiên bạn cần ghi nhớ là không được để đồ da tiếp xúc trực tiếp với ánh sáng mặt trời. Ánh nắng sẽ làm khô da và khiến bề mặt bị giòn. Một khi bề mặt da bị giòn, nó sẽ dễ nứt và xấu đi.
+                        Khi không sử dụng đến, bạn nên để các món đồ da của mình ở khô ráo, thoáng mát. Môi trường ẩm ướt dễ khiến nấm mốc xuất hiện trên bề mặt da. Vì thế đừng để đồ da trong những môi trường ẩm ướt, có độ ẩm cao trong thời 
+                        gian dài. Tuy nhiên cũng không nên bọc kín bằng những vật liệu như túi ni lông vì chúng khiến
+                        bề mặt da không được tiếp xúc với không khí nên sẽ trở nên xấu đi theo thời gian.
+                        </p>
+                    </div>
+                    <div class="phai">
+                        <img src="images/sanpham1.10.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

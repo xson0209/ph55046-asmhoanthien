@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Gđ2</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="tintuc.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const icon = document.querySelector('.icon');
+            const contentTrai = document.querySelector('.content-trai');
+
+            icon.addEventListener('click', function() {
+                if (contentTrai.classList.contains('show')) {
+                    contentTrai.classList.remove('show');
+                } else {
+                    contentTrai.classList.add('show');
+                }
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const closeBtn = document.querySelector('.close img');
+            const contentTrai = document.querySelector('.content-trai');
+
+            closeBtn.addEventListener('click', function() {
+                contentTrai.classList.remove('show');
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="content">
+        <label for="check-input" class="icon">
+            <img src="images/Thanh mở narbar.png" alt="">
+        </label>
+        <div class="content-trai">
+            <div class="mobile">
+                <div class="nav__mobile">
+                    <div for="check-input" class="close">
+                        <img src="images/close.png" alt="">
+                    </div>
+                    <div class="logo">
+                        <img src="images/Logo.png" alt="logo">
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/Home.png" alt="Home">
+                        <a href="index.html">Trang Chủ</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/Tintuc.png" alt="Home">
+                        <a href="tintuc.html">Tin Tức</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/Sản Phẩm.png" alt="Home">
+                        <a href="sanpham.html">Sản Phẩm</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/lienhe.png" alt="Home">
+                        <a href="lienhe.html">Liên Hệ</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/dang nhap.png" alt="Home">
+                        <a href="dangnhap.html">Đăng Nhập</a>
+                    </div>
+                    <div class="sub-logo">
+                        <img src="images/dang ki.png" alt="Home">
+                        <a href="dangki.html">Đăng Kí</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pc">
+                <div class="logo">
+                    <img src="images/Logo.png" alt="logo">
+                </div>
+                <div class="sub-logo">
+                    <img src="images/Home.png" alt="Home">
+                    <a href="index.html">Trang Chủ</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/Tintuc.png" alt="Home">
+                    <a href="tintuc.html">Tin Tức</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/Sản Phẩm.png" alt="Home">
+                    <a href="sanpham.html">Sản Phẩm</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/lienhe.png" alt="Home">
+                    <a href="lienhe.html">Liên Hệ</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/dang nhap.png" alt="Home">
+                    <a href="dangnhap.html">Đăng Nhập</a>
+                </div>
+                <div class="sub-logo">
+                    <img src="images/dang ki.png" alt="Home">
+                    <a href="dangki.html">Đăng Kí</a>
+                </div>
+            </div>
+        </div>
+        <div class="tintuc-content-phai">
+            <div class="title">
+                <h2>
+                   Tin Tức
+                </h2>
+                <div class="thanhngang"> </div>
+            </div>
+            <div class="sub-title">
+                <h2>
+                    Tại Sao Lại Lựa Chọn Chúng Tôi?
+                </h2>
+            </div>
+            <div class="thongtin">
+                <div class="box1">
+                    <img src="images/tintuc1.1.png" alt="">
+                    <h2>Free Ship </h2>
+                    <p>Maldini miễn phí ship cho tất cả các đơn hàng</p>
+                </div>
+                <div class="box1">
+                    <img src="images/tintuc1.2.png" alt="">
+                    <h2>Bảo Hành</h2>
+                    <p>Maldini bảo hành 1 năm cho tất cả các sản phẩm</p>
+                </div>
+                <div class="box1">
+                    <img src="images/tintuc1.3.png" alt="">
+                    <h2>Bảo Trì Chọn Đời</h2>
+                    <p>Maldini bảo trì trọn đời cho tất cả các sản phẩm</p>
+                </div>
+            </div>
+            <div class="thongtin2">
+                <div class="box2">
+                    <div class="sub-h3">
+                        <h3 class="sub-thongtin2">
+                            1.  Ngành da hand made gặp khó khăn trong quá trình xuất nhập khẩu
+                        </h3>
+                    </div>
+                    <div class="sub-p">
+                        <p>
+                            7 tháng đầu năm 2023, ngành dệt may và da giày đang gặp phải nhiều khó khăn trong việc xuất khẩu sản phẩm. Theo số liệu chính xác, kim ngạch...
+                        </p>
+                    </div>
+                </div>
+
+                <!--  -->
+
+                <div class="box2">
+                    <div class="sub-h3">
+                        <h3 class="sub-thongtin2">
+                            2.  Những khó khăn của ngành da những tháng đầu tiên năm 2024
+                        </h3>
+                    </div>
+                    <div class="sub-p">
+                        <p>
+                            Ngành da giày đang trải qua giai đoạn khó khăn trong những tháng đầu năm 2023, khi các doanh nghiệp trong ngành đang đối mặt với những thách thức từ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--  -->
+
+            <div class="thongtin2">
+                <div class="box2">
+                    <div class="sub-h3">
+                        <h3 class="sub-thongtin2">
+                            3.  Phong cách đồ da của giới trẻ hiện nay
+                        </h3>
+                    </div>
+                    <div class="sub-p">
+                        <p>
+                            Phong cách giới trẻ là một trong những xu hướng thời trang được nhiều người yêu thích trên toàn thế giới. Vậy phong cách này có gì đặc biệt? Nếu...
+                        </p>
+                    </div>
+                </div>
+
+                <!--  -->
+
+                <div class="box2">
+                    <div class="sub-h3">
+                        <h3 class="sub-thongtin2">
+                            4.  Muốn phong cách 'chất ngất' là phải sắm thời trang đồ da
+                        </h3>
+                    </div>
+                    <div class="sub-p">
+                        <p>
+                            Không thể phủ nhận những món thời trang đồ da vẫn luôn được các tín đồ thời trang yêu thích từ hè sang đông, nhất là khi xu hướng nữ quyền cá tính càng trở nên phổ biến hơn trong nhiều năm trở lại đây.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,362 @@
+body {
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 1000px;
+}
+a {
+text-decoration: none  ;
+}
+.content {
+display: block;
+display: flex;
+width: 1260px;
+margin-left: auto;
+margin-right: auto;
+background-color: #D9D9D9;
+height: 1000px;
+}
+.content-trai {
+display: block;
+width: 250px;
+background-color: white;
+}
+.content-trai .logo {
+display: block;
+width: 198px;
+height: 115px;
+align-items: center;
+text-align: center;
+}
+.sub-logo {
+display: block;
+display: flex;
+width: 198px;
+margin-top: 55px;
+}
+.content-trai .sub-logo a {
+font-size: 20pt;
+font-family: 'Poppins', sans-serif;
+color: black;
+margin-left: 20px;
+
+}
+.content-trai .sub-logo img {
+margin-left: 10px;
+}
+.content-phai{
+    margin-left: 30px;
+    display: block;
+}
+.content .content-phai .title h1{
+    font-size: 30pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.content .content-phai .title .thanhngang {
+    display: block;
+    content: "";
+    width: 920px;
+    height: 3px;
+    background: black;
+    margin-top: 5px;
+}
+.content .content-phai .box {
+    display: block;
+    margin-top: 130px;
+    margin-left: 200px;
+    
+}
+.content .content-phai .box .box1 {
+    display: block;
+    width: 529px;
+    height: 424px;
+    background: white;
+    border-radius: 10px;
+    
+}
+.box2 .title1 h1 {
+    font-size: 30pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 10px;
+}
+.content .content-phai .box .box1 .login-container .login-form .input-group .dangnhap{
+    display: block;
+    margin-top: 20px;
+    width: 446px;
+    height: 49px;
+    border-radius: 10px;
+    background: #F4F4F4;
+    margin-left: 35px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.content .content-phai .box .box1 .login-container .login-form .input-group1 .dangki{
+    display: block;
+    margin-top: 20px;
+    width: 446px;
+    height: 49px;
+    border-radius: 10px;
+    background: #F4F4F4;
+    margin-left: 35px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.content .content-phai .box .box1 .login-container .dangkingay a {
+    margin-left: 350px;
+    line-height: 60px;
+    color: #AAAAAA;
+    font-size: 16pt;
+    font-family: 'Poppins', sans-serif;
+}
+.content .content-phai .box .box1 .login-container button {
+    display: block;
+    width: 446px;
+    height: 49px;
+    border-radius: 10px;
+    background: #A9ACE7;
+    margin-left: 35px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.close {
+    display: none;
+}
+.icon img{
+    display: none;
+}
+.nav_mobile {
+    display: none;
+}
+.mobile{
+    display: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.content .content-phai .box .box1 .login-container button {
+    color: black;
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    body {
+        margin: 0 auto;
+        background-color: #D9D9D9;
+    }
+    .content-trai {
+        display: block;
+        width: 250px;
+    }
+    .content-phai {
+        width: 700px;
+    }
+    .content .content-phai .title .thanhngang {
+        display: block;
+        content: "";
+        width: 600px;
+        height: 3px;
+        background: black;
+        margin-top: 5px;
+    }
+    .content .content-phai .box {
+        display: block;
+        margin-top: 100px;
+        margin-left: 50px;
+        
+    }
+    .content .content-phai .box .box1 {
+        display: block;
+        width: 529px;
+        height: 424px;
+        background: white;
+        border-radius: 10px;
+        
+    }
+    .box2 .title1 h1 {
+        font-size: 30pt;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 70px;
+        margin-top: 10px;
+    }
+    .content .content-phai .box .box1 .login-container .login-form .input-group .dangnhap{
+        display: block;
+        margin-top: 20px;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #F4F4F4;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container .login-form .input-group1 .dangki{
+        display: block;
+        margin-top: 20px;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #F4F4F4;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container .dangkingay a {
+        margin-left: 350px;
+        line-height: 60px;
+        color: #AAAAAA;
+        font-size: 16pt;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container button {
+        display: block;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #A9ACE7;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 18pt;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 799px) {
+    body {
+        width: 500px;
+        background-color: #D9D9D9;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-trai .mobile {
+        height: 2500px;
+    }
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        position: absolute;
+        background-color: white;
+        top: 0;
+        left: 0;
+        height: 100%;
+        transform: translateX(0);
+    }
+    .icon img {
+        display: block;
+        width: 35px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .content-trai {
+        display: none; 
+    }
+    
+    .content-trai.hien {
+        display: block;
+    }
+    .show {
+        display: block;
+    }
+    .close {
+        display: block;
+    }
+    .close img {
+        width: 35px;
+        margin-left: 150px;
+    }
+    .content-phai{
+        margin-left: 30px;
+        display: block;
+    }
+    .content .content-phai .title h1{
+        font-size: 30pt;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+    .content .content-phai .title .thanhngang {
+        display: block;
+        content: "";
+        width: 700px;
+        height: 3px;
+        background: black;
+        margin-top: 5px;
+    }
+    .content .content-phai .box {
+        display: block;
+        margin-top: 130px;
+        margin-left: 80px;
+        
+    }
+    .content .content-phai .box .box1 {
+        display: block;
+        width: 529px;
+        height: 424px;
+        background: white;
+        border-radius: 10px;
+        
+    }
+    .box2 .title1 h1 {
+        font-size: 30pt;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 70px;
+        margin-top: 10px;
+    }
+    .content .content-phai .box .box1 .login-container .login-form .input-group .dangnhap{
+        display: block;
+        margin-top: 20px;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #F4F4F4;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container .login-form .input-group1 .dangki{
+        display: block;
+        margin-top: 20px;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #F4F4F4;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container .dangkingay a {
+        margin-left: 350px;
+        line-height: 60px;
+        color: #AAAAAA;
+        font-size: 16pt;
+        font-family: 'Poppins', sans-serif;
+    }
+    .content .content-phai .box .box1 .login-container button {
+        display: block;
+        width: 446px;
+        height: 49px;
+        border-radius: 10px;
+        background: #A9ACE7;
+        margin-left: 35px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 18pt;
+        font-weight: bold;
+    }
+}
